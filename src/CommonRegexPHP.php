@@ -34,9 +34,10 @@ class CommonRegexPHP
         'percentages' => '/(100(\.0+)?|[0-9]{1,2}(\.[0-9]+)?)%/',
         'creditCards' => '/((?:(?:\d{4}[- ]){3}\d{4}|\d{16}))(?![\d])/',
         'addresses' => '/\d{1,4} [\w\s]{1,20}(?:(street|avenue|road|highway|square|trail|drive|court|parkway|boulevard|circle)\b|(st|ave|rd|hwy|sq|trl|dr|ct|pkwy|blvd|cir)\.(?=\b)?)/i',
-        'youtube' => '/(?:https?:)?\/\/(?:(?:www\.)?youtube\.com\/(?:watch\?v=|embed\/)|youtu\.be\/)(?P\<id\>[A-z0-9\-\_]+)/',
-        'twitter' => '(?:https?:)?\/\/(?:[A-z]+\.)?twitter\.com\/@?(?!home|share|privacy|tos|hashtag)(?P\<username\>[A-z0-9_]+)\/?
-',
+        'youtube' => '/(?im)\b(?:https?:\/\/)?(?:w{3}\.)?youtu(?:be)?\.(?:com|be)\/(?:(?:\??v=?i?=?\/?)|watch\?vi?=|watch\?.*?&v=|embed\/|)([A-Z0-9_-]{11})\S*(?=\s|$)/',
+        'twitter' => '/(?:https?:)?\/\/(?:[A-z]+\.)?twitter\.com\/@?(?!home|share|privacy|tos|hashtag)(?P<username>[A-z0-9_]+)\/?/',
+        'twitter_hashtag' => '([#][\w_-]+)',
+        'twitter_mention' => '([@][\w_-]+)',
     ];
 
     /**
