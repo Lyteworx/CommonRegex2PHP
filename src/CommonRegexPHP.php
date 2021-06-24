@@ -1,6 +1,6 @@
 <?php
 
-namespace lyteworx\lyteworx;
+namespace lyteworx;
 
 /**
  * CommonRegexPHP
