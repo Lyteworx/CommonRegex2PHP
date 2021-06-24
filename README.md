@@ -1,5 +1,8 @@
-CommonRegexPHP
+CommonRegex2PHP
 ===============
+> Forked from james2doyle/CommonRegexPHP (https://github.com/james2doyle/CommonRegexPHP)
+
+Adding Additional Regex searches.
 
 > Migrated from [talyssonoc/CommonRegexJS](https://github.com/talyssonoc/CommonRegexJS)
 
