@@ -9,7 +9,7 @@
  *
  * @package    CommonRegexPHP
  * @version    1.0.0
- * @author     james2doyle
+ * @author     lyteworx
  * @license    MIT
  */
 

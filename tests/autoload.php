@@ -11,4 +11,4 @@
 |
 */
 
-require __DIR__ . '/../src/james2doyle/CommonRegexPHP.php';
+require __DIR__ . '/../src/lyteworx/CommonRegexPHP.php';

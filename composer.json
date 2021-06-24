@@ -20,11 +20,11 @@
         "addresses"
     ],
     "license": "MIT",
-    "homepage": "https://github.com/james2doyle/CommonRegexPHP",
+    "homepage": "https://github.com/Lyteworx/CommonRegexPHP",
     "authors": [
         {
-            "name": "james2doyle",
-            "email": "james2doyle@gmail.com"
+            "name": "lyteworx",
+            "email": "info@lyteworx.com"
         }
     ],
     "scripts": {
@@ -34,7 +34,7 @@
     },
     "autoload": {
         "psr-4": {
-            "james2doyle\\": "src/"
+            "lyteworx\\": "src/"
         }
     },
     "require": {},
