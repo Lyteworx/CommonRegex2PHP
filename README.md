@@ -18,7 +18,7 @@ Usage
 ======
 
 ```
-composer require lyteworx/common-regex-php
+composer require lyteworx/common-regex2-php
 ```
 
 Then somewhere in the code:
