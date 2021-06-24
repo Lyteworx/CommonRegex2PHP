@@ -35,6 +35,8 @@ class CommonRegexPHP
         'creditCards' => '/((?:(?:\d{4}[- ]){3}\d{4}|\d{16}))(?![\d])/',
         'addresses' => '/\d{1,4} [\w\s]{1,20}(?:(street|avenue|road|highway|square|trail|drive|court|parkway|boulevard|circle)\b|(st|ave|rd|hwy|sq|trl|dr|ct|pkwy|blvd|cir)\.(?=\b)?)/i',
         'youtube' => '/(?:https?:)?\/\/(?:(?:www\.)?youtube\.com\/(?:watch\?v=|embed\/)|youtu\.be\/)(?P\<id\>[A-z0-9\-\_]+)/',
+        'twitter' => '(?:https?:)?\/\/(?:[A-z]+\.)?twitter\.com\/@?(?!home|share|privacy|tos|hashtag)(?P\<username\>[A-z0-9_]+)\/?
+',
     ];
 
     /**
